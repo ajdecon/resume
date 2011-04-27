@@ -1,0 +1,392 @@
+% Adam DeConinck's Resume
+% Last edited: 14 August 2010.
+
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+
+\pagestyle{empty}
+\geometry{letterpaper,tmargin=0.75in,bmargin=0.75in,lmargin=1in,rmargin=1in,headheight=0in,headsep=0in,footskip=0in}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0in}
+\setlength{\itemsep}{-0.2cm}
+\setlength{\topsep}{0in}
+\setlength{\tabcolsep}{0in}
+
+%\hyphenation{encapsulations, Scholars, lithography, Engineering, microscopy, assistance}
+
+% Name and contact information
+\newcommand{\name}{Adam DeConinck}
+\newcommand{\addr}{512 W White St \#3, Champaign, IL 61820}
+\newcommand{\phone}{(217) 621-3640}
+\newcommand{\email}{ajdecon@gmail.com}
+\newcommand{\website}{http://ajdecon.org/}
+\newcommand{\linkedin}{http://www.linkedin.com/in/ajdecon}
+
+% This defines how the name looks
+\newcommand{\bigname}[1]{
+	\begin{center}\fontfamily{phv}\selectfont\Huge\scshape#1\end{center}
+}
+
+
+
+% Section heading.
+\newcommand{\bigsection}[1]{	
+	\vspace{4pt}
+	{\fontfamily{phv}\selectfont\Large#1}
+
+	\vspace{-10pt} \rule{\textwidth}{1pt}
+}
+
+% Section heading.
+\newcommand{\smallsection}[1]{	
+	\vspace{2pt}
+	{\fontfamily{phv}\selectfont\Large#1}
+}
+
+\newcommand{\jobitem}[4]{
+    \vspace{4pt}
+
+    \textbf{#1}--#2 \hfill #3\\ #4
+
+    \vspace{-8pt}
+}
+
+
+
+
+\begin{document}
+
+\fontfamily{ppl} \selectfont
+
+% Name with horizontal rule
+\bigname{\name}
+
+\vspace{-8pt} \rule{\textwidth}{1pt}
+
+\vspace{-1pt} {\small\itshape \addr \hfill \email \hfill \phone \hfill \website} % \\ \website \hfill \linkedin}
+
+\vspace{16pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigsection{Education}
+\vspace{-10pt}
+
+\textbf{M.S. in Materials Science and Engineering}--University of Illinois \hfill Expected December 2010
+
+Urbana, IL \hfill Current GPA 3.53
+\vspace{-6pt}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+\item Focus on polymer physics, complex fluids and data analysis.
+\end{itemize}
+
+\textbf{B.S. in Physics}--Michigan Technological University \hfill May 2007
+
+Houghton, MI \hfill GPA 3.85
+\vspace{-6pt}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+\item Minors in Mathematics and Electronic Materials.
+\item Graduated magna cum laude.
+\end{itemize}
+
+%Transcripts including a list of relevant classes are available on request.
+
+\vspace{4pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigsection{Experience}
+
+\vspace{-10pt}
+
+\jobitem{Graduate Research Assistant}{University of Illinois}{August 2007--present}{Urbana, IL}
+
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+
+\item Research on microfluidics, colloidal physics, 3D particle tracking and DNA genotyping.
+
+% \item Designed and fabricated microfluidic devices for flow lithography and chemical gradients.
+
+% \item Research group included undergraduate and graduate students, and Ph.D. scientists.
+
+% \item Core skills used: microfabrication, microscopy, data analysis and soft matter physics.
+
+% \item Extensive experience with image analysis using Matlab and Java.
+
+\item Develop tools for data analysis in Java, Matlab and Python, and instrument controllers in LabView.
+
+\item Maintain several actively-used research instruments, as well as research group wiki and servers.
+
+\item Present results and analysis to research group every 2-3 weeks in group meetings.
+%\item Participate in weekly group meetings, giving research presentations every 2-3 weeks.
+
+\item Assist colleagues in areas including data analysis, programming, microfabrication and microscopy.
+
+\item Train and supervise several undergraduate research assistants.
+
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%\item 2008-2009: Graduate mentor through the Intel Scholars for Undergraduate Research program for improving representation of women in technology.
+%\end{itemize}
+
+%\item Project: controlled self-assembly of anisotropic colloidal particles
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%\item Fabricated microfluidic devices using soft lithography and clean-room techniques.
+%\item Assembled a microfluidic flow lithography (FL) system and built a LabView controller.
+%\item Used FL to produce self-assembling particles with controlled shape and chemistry.
+%\item Imaged free and self-assembled particles using 3D confocal microscopy.
+%\item Developed Matlab code for morphological image analysis to study particle behavior.
+%\end{itemize}
+%
+%\item Project: DNA genotyping with polymer micro-beads
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%\item Collaboration with Chemistry Ph.D. student in Nuzzo research group.
+%\item Designed and fabricated labeled DNA/polymer micro-beads by FL.
+%\item Developed analysis for genotyping of sample DNA based on fluorescence data.
+%\item Implemented image processing routines and genotyping analysis in Matlab.
+%\item Co-wrote a publication based on these results, submitted to \textit{Angewandte Chemie}.
+%\end{itemize}
+
+%\item Partially funded by the Army Research Office under the National Defense Science and Engineering Graduate Fellowship (2008--2011).
+
+\end{itemize}
+
+
+%\jobitem{Senior research project}{Michigan Technological University}{August 2006--May 2007}{Houghton, MI}
+%
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%\item Fabricated boron nitride thin films and nanotubes by pulsed-laser deposition.
+%\item Characterized samples by Fourier-transform infrared spectroscopy and electron microscopy.
+%\item Presented results of my research at a Physics department colloquium.
+%\end{itemize}
+
+\jobitem{Physics Learning Center Coach}{Michigan Technological University}{August 2006--May 2007}{Houghton, MI}
+%\vspace{16pt}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+\item Taught physics in a free tutoring center supplied by the Physics Department.
+\item Conducted interviews and assisted in hiring decisions for the next year's tutoring staff.
+%\item Developed learning plans for one-on-one students.
+\end{itemize}
+
+\jobitem{Contractor}{Dow Corning Corporation}{May 2006--August 2006}{Midland, MI}
+
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+% \item Project: develop technique to evaluate thin-film encapsulations for organic LEDs.
+%\item Worked on a team including other contractors and Dow Corning scientists and engineers.
+\item Assembled an automated electrical/optical test station to characterize testbed OLED devices. 
+\item Developed image analysis algorithms to measure development of OLED surface defects.
+\item Developed software to automate test station operation (LabView) and analysis of experimental data (Java and Visual Basic).
+%\item Developed an automated report generator in VB/Excel to present raw test station data.
+%\item Helped to develop image analysis algorithms to track the development of device defects. 
+%\item Implemented these defect analysis algorithms in Java as an ImageJ plugin.
+%\item Developed a Visual Basic macro to translate test station data into an Excel summary report.
+\item Produced detailed project documentation to facilitate the future use of these instruments.
+\item Presented my work at the end of the summer as part of an in-house seminar series.
+\item OLED test station was still in active use as of project end in 2009.
+\end{itemize}
+%
+\jobitem{Teaching Assistant}{Michigan Technological University}{August 2005--December 2005}{Houghton, MI}
+
+%\vspace{16pt}
+%
+\begin{itemize}\setlength{\itemsep}{0cm}
+ % \setlength{\parskip}{0cm}
+\item Taught two sections of an introductory mechanics lab, including lab setup and grading reports.
+%\item Prepared equipment and reading material for each week's lab.
+%\item Graded lab reports and worked directly with students in need of help.
+\end{itemize}
+
+
+\jobitem{Undergraduate Research Assistant}{Michigan State University}{June 2005--August 2005}{East Lansing, MI}
+
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+\item NSF-funded Research Experience for Undergraduates program.
+\item Assisted in developing software to analyze neutron scattering data in Fortran, Python and Perl.
+\item Analyzed data on atomic structure of colossal magnetoresistance in perovskite manganites.
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%	\item Colossal magnetoresistive (CMR) materials are useful in data storage applications.
+%	\item Analysis revealed a molecular distortion which might help explain CMR behavior.
+%\end{itemize}
+\item Automated the analysis of large datasets across multiple servers.  Assisted in network configuration.
+\item Produced a final report for the NSF on my work and helped prepare a paper published in \textit{Physical Review Letters}.
+\end{itemize}
+
+
+\jobitem{Undergraduate Research Assistant}{Michigan Technological University}{June 2004--May 2005}{Houghton, MI}
+
+%%
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+\item Developed fabrication and processing techniques for producing thin films of vertically-aligned carbon nanotubes
+for research on field emission devices.
+\end{itemize}
+%%
+%%
+%%
+%%\jobitem{Computer Lab Tech}{Tecumseh Public Library}{July 2001--May 2002}{Tecumseh, MI}
+
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%\item Helped manage a public-use computer lab with 8-10 workstations.
+%\item Managed upgrades and repaired/restored damaged workstations.
+%\item Provided computer assitance to library patrons, from office tasks to simple web design assistance.
+%\end{itemize}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigsection{Skills and Knowledge}
+
+\vspace{-10pt}
+
+\textit{Materials science}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+
+		\item Microfabrication using microfluidics, soft lithography, and UV photolithography.
+%chemical vapor \\deposition and pulsed-laser deposition.
+		\item Materials characterization with fluorescence and confocal microscopy, SEM, AFM, and FTIR.
+		\item Experience with polymer synthesis, photocurable materials, and rheology.
+%		\item Electronic and optical microscopy, including fluorescence and confocal microscopy.
+		\item Expertise in polymer physics, soft materials and electronic materials.
+\end{itemize}
+
+\textit{Computing}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+
+		\item Proficient in programming and data analysis with Matlab, Java and Python (numpy+ scipy+matplotlib).
+		\item Some experience with with Perl, Fortran, R, Visual Basic, MySQL and SQLite databases.
+		\item Extensive experience with computational analysis of text, numerical and image data.
+		%\item Experience with setting up small computer networks (wired or wireless) and basic system administration on Linux and Windows.
+%		\item Automated unit tests of analysis code in Java with JUnit and in Matlab using hand-written tests.
+%		\item Programming in Java, Python, Perl, R and Visual Basic.
+%		\item Setup and maintenance of PCs and servers running Microsoft Windows and Linux.
+%		\item Maintenance of networks including Windows, Linux and Mac workstations.
+%		\item Experience with optical, fluorescence and confocal microscopy, image processing and analysis of\\ microscopy data.
+%		\item Image processing and analysis, curve fitting of fluorescence data and analysis of text data..
+		\item Experience with parallel data analysis using Hadoop or Twister on Amazon EC2 clusters.
+%		\item Web development using HTML/CSS/JavaScript, PHP and Perl.
+
+
+		\item Basic understanding of computational statistics and common machine learning techniques.
+		\item Web development skills: LAMP environment, HTML/CSS, PHP, Python, Perl, Javascript.
+%%Setup and maintenance of CMS systems including Wordpress and MediaWiki.
+%		\item{Experienced with Perl, Fortran, Visual Basic, statistical analysis using R, parallel computing using Hadoop, and web development in LAMP environments.}
+
+
+
+
+
+%		\item{Strong background in mathematics and scientific programming.}
+%		\item{Some web design experience with HTML/CSS, Perl and Python CGI and basic JavaScript.}
+%		\item{Comfortable in both Linux and Windows environments.}
+		
+%		\item Experienced with image processing and analysis, including image morphology.
+%		\item{Strong interest in data analysis, machine learning and scientific computing.}
+%		\item{Expertise in microfabrication, soft lithography, microscopy and polymer physics.}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigsection{Presentations and Publications}
+\vspace{-16pt}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+	\item{Wu, \textbf{DeConinck}, Lewis and White,
+ ``Omnidirectional printing of 3D microvascular networks using direct-write assembly'',
+\textit{Soft Matter} (in preparation).}
+	\item{Zhang, \textbf{DeConinck}, Slimmer, Lewis and Nuzzo, 
+``Genotyping by Alkaline Dehybridization Using Graphically Encoded Particles'', 
+\textit{Angewandte Chemie} (submitted, 2010).}
+
+%	\item{\textbf{DeConinck}, Shepherd, Cote, Granick, Schweizer and Lewis. \textit{Programming Function via Soft Materials}, 
+%``Fabrication and Self-Assembly of Janus Ellipsoids and Rods'',
+%workshop at the 
+%Frederick Seitz 
+%Materials Research Laboratory, 
+%University of Illinois, Urbana, Il (2009).}
+
+	\item{\textbf{DeConinck}, Shepherd, Cote and Lewis, 
+``Fabrication and Self-Assembly of Anisotropic Patchy Particles'',
+\textit{Materials Research Society Fall Meeting}, Boston, MA (2008).}
+	
+	\item{Bozin, Schmidt, \textbf{DeConinck}, Paglia, Mitchell, Chatterji, Radaelli, Proffen and Billinge, 
+``Understanding the Insulating Phase in Colossal Magnetoresistance Manganites: Shortening of the Jahn-Teller Long-Bond across the Phase Diagram of La$_{1-x}$Ca$_x$MnO$_3$'', 
+\textit{Physical Review Letters} \textbf{98} 137203 (2007).}
+	\item{Ulmen, Kayastha, \textbf{DeConinck}, Wang and Yap, 
+``Stability of field emission current from various types of carbon nanotube films'', 
+\textit{Diamond and Related Materials} \textbf{15} 212 (2006).}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigsection{Awards and Fellowships}
+
+\vspace{-16pt}
+
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+	\item{National Defense Science and Engineering Graduate (NDSEG) Fellowship supported by the Army Research Office: full
+	fellowship support, 2008--present.}
+
+	\item{Graduate mentor for the Intel Scholars for Undergraduate Research program for improving representation of women in science and engineering, 2008--2009.}
+
+	\item{Michigan Technological University Scholar Award (full degree support), 2003--2007.}
+
+%	\item{Michigan Technological University Provost's Award for Scholarship, 2006.}
+
+	\item{Undergraduate research fellowship from the Michigan Space Grant Consortium, 2004--2005.}
+
+	\item{National Merit Scholarship awarded by Siemens Corporation, 2003--2007.\\ \ }
+\end{itemize}
+
+\vspace{-8pt}
+
+\bigsection{Other Activities}
+\begin{itemize}\setlength{\itemsep}{0cm}
+  \setlength{\parskip}{0cm}
+
+
+	\item Attended the 2010 ``Big Data for Science'' workshop at Indiana University on scientific cloud computing and the MapReduce computing model.
+	\item Strong personal interest in data analysis, data visualization and machine learning.
+	\item Volunteered at the 2010 Science Olympiad National Tournament in Champaign, IL.
+	\item Fencer focused on epee. Served as President of Fencing Club at Michigan Tech, 2005--2007.  Member at the Point Fencing Club and School in Champaign, IL 
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigsection{References}
+
+\vspace{-16pt}
+
+\begin{itemize}\setlength{\itemsep}{0.25cm}
+  \setlength{\parskip}{0cm}
+
+\item \textbf{Jennifer Lewis}, Director, Frederick Seitz Materials Research Laboratory, University of Illinois.\\ Graduate advisor. jalewis@illinois.edu.  (217) 333-1370.
+\item \textbf{Jacinta Conrad}, Assistant Professor, University of Houston.\\ Former post-doctoral researcher in Lewis Group. jcconrad@uh.edu. (713) 743-3829.
+\item \textbf{Elizabeth Glogowski}, Post-doctoral researcher, Lewis Group, University of Illinois.\\ emglogowski@gmail.com. (413) 687-3187.
+%\item \textbf{Vasgen Shamamian}, Associate Scientist, Dow Corning Corporation.\\ v.shamamian@dowcorning.com
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\bigsection{Other interests}
+%\begin{itemize}\setlength{\itemsep}{0cm}
+%  \setlength{\parskip}{0cm}
+%
+%	\item{Fencing with epee and foil.  (President of the Fencing Club at Michigan Tech, 2005--2007; current member at the Point Fencing Club in Champaign, IL.)}
+%
+%	\item{Jazz and classical trumpeter since middle school, in school bands and independent groups.}
+%
+%	\item{Strong interest in board games and card games.  Current favorites are Settlers of Catan, Dominion, Pandemic and Nuclear War.} 
+%\end{itemize}
+%
+\end{document}
