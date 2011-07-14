@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2010.10.19)  20 JUN 2011 13:05
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2010.10.19)  14 JUL 2011 15:26
 entering extended mode
 **Z:/notes/resume/deconinck-resume.tex
 (Z:/notes/resume/deconinck-resume.tex
@@ -70,18 +70,18 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (Z:\notes\resume\deconinck-resume.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -117,34 +117,34 @@ LaTeX Font Info:    ... okay on input line 60.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 62.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 61.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 65.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 64.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 91.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 89.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
@@ -153,13 +153,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (Z:\notes\resume\deconinck-resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1066 strings out of 494019
- 13528 string characters out of 3143875
+ 1064 strings out of 494019
+ 13507 string characters out of 3143875
  71168 words of memory out of 3000000
- 4389 multiletter control sequences out of 15000+200000
- 24955 words of font info for 32 fonts, out of 3000000 for 9000
+ 4388 multiletter control sequences out of 15000+200000
+ 23402 words of font info for 30 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 23i,4n,19p,215b,168s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,4n,19p,248b,168s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ajdecon\AppData\Local\MiKTeX
 \2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk>{C:/Program Files (x86)/MiK
 TeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/font
@@ -168,7 +168,7 @@ type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on deconinck-resume.pdf (1 page, 74490 bytes).
+Output written on deconinck-resume.pdf (1 page, 76755 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
