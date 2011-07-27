@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2010.10.19)  14 JUL 2011 15:39
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2010.10.19)  26 JUL 2011 20:13
 entering extended mode
 **Z:/notes/resume/deconinck-resume.tex
 (Z:/notes/resume/deconinck-resume.tex
@@ -132,19 +132,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 90.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
@@ -155,11 +155,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 356--357
 Here is how much of TeX's memory you used:
  1064 strings out of 494019
  13507 string characters out of 3143875
- 71168 words of memory out of 3000000
+ 71166 words of memory out of 3000000
  4388 multiletter control sequences out of 15000+200000
  23402 words of font info for 30 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 23i,4n,19p,248b,168s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,4n,19p,244b,168s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ajdecon\AppData\Local\MiKTeX
 \2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk>{C:/Program Files (x86)/MiK
 TeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/font
@@ -168,7 +168,7 @@ type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on deconinck-resume.pdf (1 page, 76727 bytes).
+Output written on deconinck-resume.pdf (1 page, 79365 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
