@@ -3,6 +3,7 @@
 \documentclass[10pt]{article}
 \usepackage{geometry}
 \usepackage[T1]{fontenc}
+\usepackage{multicol}
 
 \pagestyle{empty}
 \geometry{letterpaper,tmargin=0.5in,bmargin=0.5in,lmargin=0.5in,rmargin=0.5in,headheight=0in,headsep=0in,footskip=0in}
@@ -17,7 +18,7 @@
 
 % Name and contact information
 \newcommand{\name}{Adam DeConinck}
-\newcommand{\addr}{909 S. 5th St \#149, Champaign, IL 61820}
+\newcommand{\addr}{909 S. 5th St \#139, Champaign, IL 61820}
 \newcommand{\phone}{(347) 709-2326}
 \newcommand{\email}{ajdecon@ajdecon.org}
 \newcommand{\website}{http://www.ajdecon.org/}
@@ -70,10 +71,11 @@
 \vspace{6pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bigsection{Summary}
-Engineer and scientist with expertise in high-performance computing in conventional and cloud deployments. 
-Background in academic and commercial research with a heavy focus on computational analysis and ``Big Data'' science. Proficient
-in rapid deployment of dynamically-allocated computational resources, and tuning cluster configuration for specific \\ applications.  Excellent communications skills and ability to support 
-researchers on HPC systems.
+Engineer and scientist with expertise in high-performance computing and cloud computing. 
+Background in academic and commercial research with a heavy focus on computational analysis. Interested in ``Big Data'' technologies and the application of cloud computing to HPC for non-traditional users. 
+% Proficient
+%n rapid deployment of dynamically-allocated computational resources, and tuning cluster configuration for specific applications.  %Excellent \\communication skills and ability to support 
+%researchers on HPC systems.
 
 \vspace{4pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -87,20 +89,20 @@ researchers on HPC systems.
   \setlength{\parskip}{0cm}
 
 %\item Engineer/sysadmin at a large, complex site providing on-demand access to private HPC clusters.
-\item Design, deploy, and support private ``cloud'' HPC clusters on R Systems hardware for academic and commercial researchers.
+\item Design, deploy, and support private ``cloud'' HPC clusters on R Systems hardware for research customers.
 \item Measure and tune behavior of customer applications for best performance and usability.
-\item Develop software and pre-built images for automating deployment of custom solutions.
+\item Support and train users with varied levels of past experience with HPC.
+\item Develop software and pre-built images for automating deployment of custom compute clusters.
 \item Track and evaluate new software and hardware technologies for existing and potential customers.
 \item Outreach activites to relevant research communities and open-source projects.
 \item Active and past projects include:
     \begin{itemize}\setlength{\itemsep}{0cm}
         \setlength{\parskip}{0cm}
         \vspace{-4pt}
-        \item Long-term deployment of 600-1000 core RHEL 5.6 cluster for meteorological modeling application.
-        \item Long-term deployment of 1000 core Windows 2008 HPC R2 cluster for actuarial application.
-        \item Dynamic cluster deployments (Windows and Linux) for high-performance storage vendor benchmarking development hardware.
-        \item Over a dozen other cluster deployments for various scientific and engineering applications under short-term contracts 
-        (days--months).
+        \item Long-term (1+ years) deployment of 600-1000 core RHEL 5.6 cluster for meteorological modeling application.
+        \item Long-term (1+ years) deployment of 1000 core Windows 2008 HPC R2 cluster for actuarial application.
+        \item Deploy short-term test clusters for a high-performance storage vendor benchmarking development hardware.
+        \item Over a dozen other shorter-term or smaller deployments for various scientific and engineering applications.
     \end{itemize}
 \end{itemize}
 
@@ -148,7 +150,9 @@ researchers on HPC systems.
 
 %\item Developed software for computational data analysis and automation of research instruments.
 
-\item Trained and supervised undergraduate researchers and helped maintain shared resources. 
+%\item System administration for group compute servers and did general computer support
+
+\item Trained and supervised undergraduate researchers and administered group compute servers.
 
 %\item Maintained several actively-used research instruments, as well as research group wiki and servers.
 
@@ -307,6 +311,47 @@ researchers on HPC systems.
 \bigsection{Skills and Knowledge}
 
 \vspace{-15pt}
+
+\begin{multicols}{2}
+
+\begin{itemize}\setlength{\itemsep}{0cm}
+\setlength{\parskip}{0cm}
+
+\item \textbf{High Performance Computing:}
+	\begin{itemize}\setlength{\itemsep}{0cm}
+	\setlength{\parskip}{0cm}
+	\item Experienced sysadmin in Linux and Windows
+	\item Configuration management with Puppet
+	\item Provisioning: Perceus/Warewulf, xCAT, Cobbler
+	\item Schedulers: Torque/PBS, Grid Engine, Hadoop
+	\item Virtualization: KVM, Hyper-V, EC2, OpenQRM
+	\item Parallel file systems: Lustre, PVFS2, HDFS
+	\item Networking: Ethernet and Infiniband
+	\item Experienced with Microsoft HPC Pack
+	\item Excellent user support, communications skills 
+	\end{itemize}
+
+\item \textbf{Programming Languages:}
+	\begin{itemize}\setlength{\itemsep}{0cm}
+	\setlength{\parskip}{0cm}
+	\item Scientific programming: Matlab, Java, Python
+	\item Sysadmin: Python, Perl, shell scripts
+	\item Classroom or personal experience: Fortran, C, R
+	\end{itemize}
+
+\item \textbf{Materials Science:}
+	\begin{itemize}\setlength{\itemsep}{0cm}
+	\setlength{\parskip}{0cm}
+	\item Image processing, mathematical morphology
+	\item Microscopy: optical, fluorescent, SEM, confocal
+	\item Microfabrication with soft materials
+	\item Microfluidics and nonlinear rheology
+	\end{itemize}
+
+\end{itemize}
+
+\end{multicols}
+
 %
 %\textit{Materials science}
 %\begin{itemize}\setlength{\itemsep}{0cm}
@@ -321,17 +366,23 @@ researchers on HPC systems.
 %\end{itemize}
 
 %\textit{Computing}
-\begin{itemize}\setlength{\itemsep}{0cm}
-  \setlength{\parskip}{0cm}
+%\begin{itemize}\setlength{\itemsep}{0cm}
+  %\setlength{\parskip}{0cm}
+
 		
-        \item Production programming experience in Python, Perl, Java, Matlab, and bash.
-        \item Classroom or personal programming experience in Fortran, C, R, and Scala.
-        \item Background in scientific computing, data analysis, and commercial and academic research.
 %		\item Extensive experience with provisioning, configuration and maintenance of dynamic HPC clusters.
-        \item Design, provisioning and configuration of HPC clusters with Ethernet and Infiniband networks.
-        \item HPC tools for Linux (Perceus/Warewulf, Cobbler, PBS, Grid Engine, Hadoop) and Windows (HPC Pack).
-        \item Parallel/distributed filesystems including Lustre, PVFS2 and HDFS.
-        \item Virtualization with KVM, Xen and Hyper-V, private clouds (OpenStack) and public clouds (EC2).
+%        \item Linux and Windows system administration in the context of high-performance computing.
+ %       \item Design, deployment and configuration of HPC clusters with Ethernet and Infiniband interconnects.
+%	\item Dynamic provisioning of servers using Perceus/Warewulf, Cobbler, xCAT and Microsoft HPC Pack.
+%	\item Configuration of workload management systems such as Torque/PBS, Grid Engine, Platform LSF and Hadoop.
+%        \item HPC tools for Linux (Perceus/Warewulf, Cobbler, PBS, Grid Engine, Hadoop) and Windows (HPC Pack).
+%        \item Configuration and administration of parallel/distributed filesystems including Lustre, PVFS2 and HDFS.
+%        \item Provisioning of virtualized servers locally (Xen, KVM, Hyper-V) and in cloud systems (EC2, OpenQRM).
+
+%        \item Network administration on ethernet and Infiniband networks
+%        \item Production programming experience in Python, Perl, Java, and Matlab.
+%        \item Classroom or personal programming experience in Fortran, C, R, and Scala.
+%        \item Background in scientific computing, data analysis, and commercial and academic research.
 %        \item Extensive experience supporting scientists, engineers, and other users with varied levels of experience.
 
 %		\item Proficient in Python, Java, and Matlab for scientific computing, and Perl and PowerShell for scripting.
@@ -368,7 +419,8 @@ researchers on HPC systems.
 %		\item Experienced with image processing and analysis, including image morphology.
 %		\item{Strong interest in data analysis, machine learning and scientific computing.}
 %		\item{Expertise in microfabrication, soft lithography, microscopy and polymer physics.}
-\end{itemize}
+%\end{itemize}
+
 \vspace{-5pt}
 
 \bigsection{Education}
