@@ -1,7 +1,7 @@
 \documentclass[10pt,letter]{moderncv}
 
-\moderncvtheme[blue]{casual}
-%\moderncvtheme[blue]{classic}
+%\moderncvtheme[blue]{casual}
+\moderncvtheme[blue]{classic}
 \usepackage[utf8]{inputenc}
 \usepackage[hmargin=1.5cm,vmargin=1.5cm]{geometry}
 %\usepackage[pdftex,colorlinks=false,plainpages=false]{hyperref}
@@ -12,7 +12,8 @@
 \email{ajdecon@ajdecon.org}
 %\address{909 S 5th St \#139}{Champaign, IL 61820}
 \mobile{347.709.2326}
-\extrainfo{\href{http://www.ajdecon.org/}{http://www.ajdecon.org/}}
+\extrainfo{\href{http://www.ajdecon.org/}{http://www.ajdecon.org/}\\
+		 \href{http://www.github.com/ajdecon}{http://www.github.com/ajdecon}}
 \title{HPC Systems Engineer}
 
 \nopagenumbers{}
@@ -20,40 +21,13 @@
 \begin{document}
 \maketitle
 
-\cvline{\large \textbf{Summary}}{\large Engineer with expertise in scientific research, data analysis, high-performance computing and cloud computing.}
-
-\section{Education}
-\cventry{2007--2010}{M.S. Materials Science and Engineering}{University of Illinois}{Urbana, IL}{}{}
-\cventry{2003--2007}{B.S. Physics}{Michigan Technological University}{Houghton, MI}{}{Minors: Mathematics, Electronic Materials}
-
-\section{Professional Experience}
-\cventry{2010--present}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{
-	\begin{itemize}
-	\item Design, deploy, and support HPC compute clusters on hardware hosted at R Systems, including 
-		long-term deployments of Windows and Linux clusters of 2000+ cores
-	\item Optimize clusters and applications for best performance and ease-of-use
-	\item Develop automation for deployment of HPC clusters via a web interface (``R Cloud'')
-	\item Outreach to user communities and relevant open-source projects
-	\end{itemize}}
-\cventry{2007--2010}{Graduate Researcher}{University of Illinois}{Urbana, IL}{}{
-	\begin{itemize}
-	\item Research science with a combination of lab work and computational analysis
-	\item Helped develop a new genotyping technique involving microfluidics and image processing
-	\item Data analysis and image processing for 3D-printed fluid networks
-	\item Awarded the National Defense Science and Engineering Graduate Fellowship
-	\end{itemize}}
-\cventry{2006}{Contractor}{Dow Corning Corporation}{Midland, MI}{}{Assembled and programmed an automated test station to perform electrical characterization and optical analysis of prototype OLED devices}
-\cventry{2004--2005}{Undergraduate Researcher}{Michigan Technological University}{Houghton, MI}{}{Fabricated carbon nanotubes for studies of their electronic field emission}
-
-\section{Open Source}
-\cvline{Warewulf}{Linux provisioning and management system for HPC (contributer)}
-\cvline{ImageJ Plugins}{Mathematical morphology plugins for arbitrary structuring elements (personal project)}
+%\cvline{\large \textbf{Summary}}{\large Engineer with expertise in scientific research, data analysis, high-performance computing and cloud computing.}
 
 \section{Skills and Knowledge}
 \subsection{Programming Languages}
 \cvdoubleitem{Python}{NumPy, webapps, sysadmin}{Fortran}{Parallel numerical code (MPI)}
 \cvdoubleitem{Perl}{Sysadmin, automation, webapps}{Java}{Image processing with ImageJ}
-\cvdoubleitem{Matlab}{Numerical code, image processing}{C}{MPI programming (classroom)}
+\cvdoubleitem{Ruby}{Chef DSL, some scripting}{C}{MPI programming (classroom)}
 \subsection{System Administration}
 \cvline{Support}{\small Front-line support for large, complex HPC deployments with variably-skilled users}
 %\cvline{Provisioning}{\small Linux: Perceus, Warewulf, Cobbler, Kickstart; Windows: HPC Pack, WDS}
@@ -64,4 +38,34 @@
 \cvline{Storage}{\small BlueArc NAS; Custom NFS servers; Parallel filesystems including Lustre, HDFS, PVFS2}
 \cvline{Networking}{\small Deploy and manage Infiniband and Ethernet networks in clustered environments}
 \cvline{Cloud}{\small Deployment of HPC clusters on Amazon EC2, stand-alone and burst configurations}
+
+\section{Experience}
+\cventry{2012--present}{Systems Engineer}{NVIDIA}{Santa Clara, CA}{}{
+	\begin{itemize}
+	\item Design and deploy HPC compute clusters and workstations for internal
+		benchmarking and customer demos, using Windows and Linux.
+	\item Primary user support for internal benchmarking cluster and internal Cray development
+		system.
+	\item Develop automation for deploying compute clusters and demo systems to cloud
+		providers incorporating NVIDIA hardware.
+	\end{itemize}
+}
+\cventry{2011--present}{Contributer}{Warewulf Cluster Manager}{\href{http://warewulf.lbl.gov/}{http://warewulf.lbl.gov/}}{}{Development and testing for HPC provisioning system and cluster manager. Have worked on IPMI integration, stateful
+provisioning, and miscellaneous bugfixes.}
+\cventry{2010--2012}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{
+	\begin{itemize}
+	\item Design, deploy, and support compute clusters for "HPC as a Service" projects
+		hosted at R Systems.
+	\item Develop internal automation and tooling for customized cluster deployments
+	\end{itemize}}
+\cventry{2007--2010}{Graduate Researcher}{University of Illinois}{Urbana, IL}{}{Did research on viscoelastic materials and microfluidics, as well as image processing of microscopy images.}
+\cventry{2006}{Contractor}{Dow Corning Corporation}{Midland, MI}{}{Assembled and programmed an automated test station to perform electrical characterization and optical analysis of prototype OLED devices}
+
+
+
+\section{Education}
+\cventry{2007--2010}{M.S. Materials Science and Engineering}{University of Illinois}{Urbana, IL}{}{}
+\cventry{2003--2007}{B.S. Physics}{Michigan Technological University}{Houghton, MI}{}{Minors: Mathematics, Electronic Materials}
+
+
 \end{document}
