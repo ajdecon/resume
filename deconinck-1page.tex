@@ -1,9 +1,9 @@
-\documentclass[10pt,letter]{moderncv}
+\documentclass[11pt,letter]{moderncv}
 
-%\moderncvtheme[blue]{casual}
+%\moderncvtheme[green]{casual}
 \moderncvtheme[blue]{classic}
 \usepackage[utf8]{inputenc}
-\usepackage[hmargin=1.5cm,vmargin=1.5cm]{geometry}
+\usepackage[hmargin=1cm,vmargin=0.5cm]{geometry}
 %\usepackage[pdftex,colorlinks=false,plainpages=false]{hyperref}
 \usepackage[pdftex,plainpages=false]{hyperref}
 
@@ -21,45 +21,43 @@
 \begin{document}
 \maketitle
 
-%\cvline{\large \textbf{Summary}}{\large Engineer with expertise in scientific research, data analysis, high-performance computing and cloud computing.}
+%\cvline{\large \textbf{Summary}}{\large Systems engineer focused on high-performance and scientific computing}
 
-\section{Skills and Knowledge}
-\subsection{Programming Languages}
-\cvdoubleitem{Python}{NumPy, webapps, sysadmin}{Fortran}{Parallel numerical code (MPI)}
-\cvdoubleitem{Perl}{Sysadmin, automation, webapps}{Java}{Image processing with ImageJ}
-\cvdoubleitem{Ruby}{Chef DSL, some scripting}{C}{MPI programming (classroom)}
-\subsection{System Administration}
-\cvline{Support}{\small Front-line support for large, complex HPC deployments with variably-skilled users}
-%\cvline{Provisioning}{\small Linux: Perceus, Warewulf, Cobbler, Kickstart; Windows: HPC Pack, WDS}
-\cvline{Configuration}{\small Central configuration management with Chef (Linux) or Group Policy (Windows)}
-\cvline{Deployment}{\small Build packages (rpm/deb/msi) for custom application deployment}
-\subsection{High Performance Computing}
-\cvline{Management}{\small Torque/PBS, SLURM, Grid Engine, Hadoop}
-\cvline{Storage}{\small BlueArc NAS; Custom NFS servers; Parallel filesystems including Lustre, HDFS, PVFS2}
-\cvline{Networking}{\small Deploy and manage Infiniband and Ethernet networks in clustered environments}
-\cvline{Cloud}{\small Deployment of HPC clusters on Amazon EC2, stand-alone and burst configurations}
 
 \section{Experience}
 \cventry{2012--present}{Systems Engineer}{NVIDIA}{Santa Clara, CA}{}{
 	\begin{itemize}
-	\item Design and deploy HPC compute clusters and workstations for internal
-		benchmarking and customer demos, using Windows and Linux.
-	\item Primary user support for internal benchmarking cluster and internal Cray development
+	\item Design, deploy, and support HPC clusters for development,
+		benchmarking and demos.
+	\item Primary system administrator for internal benchmarking cluster and Cray XK6 dev
 		system.
-	\item Develop automation for deploying compute clusters and demo systems to cloud
-		providers incorporating NVIDIA hardware.
+	\item Develop automation for deploying compute clusters and demo systems to the cloud.
+	\item Technical advice and support for marketing and solution architect teams
 	\end{itemize}
 }
-\cventry{2011--present}{Contributer}{Warewulf Cluster Manager}{\href{http://warewulf.lbl.gov/}{http://warewulf.lbl.gov/}}{}{Development and testing for HPC provisioning system and cluster manager. Have worked on IPMI integration, stateful
+\cventry{2011--present}{Contributer}{Warewulf Cluster Manager}{\href{http://warewulf.lbl.gov/}{http://warewulf.lbl.gov/}}{}{Development and testing for open-source HPC provisioning system and cluster manager. Have worked on IPMI integration, stateful
 provisioning, and miscellaneous bugfixes.}
-\cventry{2010--2012}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{
-	\begin{itemize}
-	\item Design, deploy, and support compute clusters for "HPC as a Service" projects
-		hosted at R Systems.
-	\item Develop internal automation and tooling for customized cluster deployments
-	\end{itemize}}
-\cventry{2007--2010}{Graduate Researcher}{University of Illinois}{Urbana, IL}{}{Did research on viscoelastic materials and microfluidics, as well as image processing of microscopy images.}
+\cventry{2010--2012}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{Designed, deployed, and provided user support for Windows and Linux compute clusters as "HPC as a Service". Developed internal tooling and automation.}
+\cventry{2007--2010}{Graduate Research Assistant}{University of Illinois}{Urbana, IL}{}{Research on viscoelastic materials and microfluidics, analysis of confocal microscopy data.}
 \cventry{2006}{Contractor}{Dow Corning Corporation}{Midland, MI}{}{Assembled and programmed an automated test station to perform electrical characterization and optical analysis of prototype OLED devices}
+
+\section{Skills and Knowledge}
+\subsection{Programming Languages}
+\cvdoubleitem{Python}{Simulations (NumPy), sysadmin}{Fortran}{Numerical simulations}
+\cvdoubleitem{Perl}{Sysadmin, webapps, Warewulf}{C}{Some MPI programming}
+\cvdoubleitem{Shell}{Sysadmin, misc scripting}{Java}{Image processing with ImageJ}
+%\cvdoubleitem{Ruby}{Chef DSL, some scripting}{CUDA}{Help debug user code}
+\subsection{High Performance Computing}
+\cvline{Provisioning}{Warewulf, Windows HPC; some experience with Platform, Bright, Cobbler}
+\cvline{Management}{Torque/Maui, PBS Professional, SLURM, Windows HPC Pack, Grid Engine, Hadoop}
+\cvline{Storage}{Parallel filesystems including Lustre, HDFS, PVFS2; NFS for low-performance storage}
+\cvline{Networking}{Deploy and manage Infiniband and Ethernet networks in clustered environments}
+\cvline{Cloud}{Single-node and cluster deployments on Amazon EC2 and Peer 1}
+\subsection{General System Administration}
+\cvline{Support}{Front-line support for large, complex HPC deployments with up to 100 users}
+%\cvline{Provisioning}{\small Linux: Perceus, Warewulf, Cobbler, Kickstart; Windows: HPC Pack, WDS}
+\cvline{Configuration}{Configuration management with Chef or Ansible (Linux) or Group Policy (Windows)}
+\cvline{Deployment}{Build packages (rpm/deb/msi) for custom application deployment}
 
 
 
@@ -67,5 +65,7 @@ provisioning, and miscellaneous bugfixes.}
 \cventry{2007--2010}{M.S. Materials Science and Engineering}{University of Illinois}{Urbana, IL}{}{}
 \cventry{2003--2007}{B.S. Physics}{Michigan Technological University}{Houghton, MI}{}{Minors: Mathematics, Electronic Materials}
 
+\section{Additional Training}
+\cventry{2012}{Cray XE6/XK6 System Administration}{Cray, Inc.}{Chippewa Falls, WI}{}{}
 
 \end{document}
