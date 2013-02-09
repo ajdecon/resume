@@ -1,4 +1,4 @@
-\documentclass[11pt,letter]{moderncv}
+\documentclass[10pt,letter]{moderncv}
 
 %\moderncvtheme[green]{casual}
 \moderncvtheme[blue]{classic}
@@ -27,37 +27,59 @@
 \section{Experience}
 \cventry{2012--present}{Systems Engineer}{NVIDIA}{Santa Clara, CA}{}{
 	\begin{itemize}
-	\item Design, deploy, and support HPC clusters for development,
-		benchmarking and demos.
-	\item Primary system administrator for internal benchmarking cluster and Cray XK6 dev
-		system.
-	\item Develop automation for deploying compute clusters and demo systems to the cloud.
+	\item Design, deploy, and support GPU-enabled HPC clusters and workstations for development,
+		benchmarking and demos
+	\item Sole system administrator for a heterogeneous HPC cluster and Cray XK6 with >100 users
+	\item Develop automation for deploying compute clusters and demo systems to cloud infrastructure
 	\item Technical advice and support for marketing and solution architect teams
 	\end{itemize}
 }
 \cventry{2011--present}{Contributor}{Warewulf Cluster Manager}{\href{http://warewulf.lbl.gov/}{http://warewulf.lbl.gov/}}{}{Development and testing for open-source HPC provisioning system and cluster manager. Have worked on IPMI integration, stateful
 provisioning, and miscellaneous bug-fixes.}
-\cventry{2010--2012}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{Designed, deployed, and provided user support for Windows and Linux compute clusters as "HPC as a Service". Developed internal tooling and automation.}
-\cventry{2007--2010}{Graduate Research Assistant}{University of Illinois}{Urbana, IL}{}{Research on viscoelastic materials and microfluidics, analysis of confocal microscopy data.}
+\cventry{2010--2012}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{Designed, deployed, and provided user support 
+for Windows and Linux compute clusters as "HPC as a Service". Developed internal tooling and automation.}
+\cventry{2007--2010}{Graduate Research Assistant}{University of Illinois}{Urbana, IL}{}{Research on properties of 
+viscoelastic materials (with non-linear flow behavior), including development of data analysis tools}
 \cventry{2006}{Contractor}{Dow Corning Corporation}{Midland, MI}{}{Assembled and programmed an automated test station to perform electrical characterization and optical analysis of prototype OLED devices}
 
 \section{Skills and Knowledge}
 \subsection{Programming Languages}
-\cvdoubleitem{Python}{Simulations (NumPy), sysadmin}{C, Fortran}{Numerical simulations}
-\cvdoubleitem{Perl}{Sysadmin, webapps, Warewulf}{Ruby}{Some Chef, toy Sinatra apps}
-\cvdoubleitem{Shell}{Sysadmin, misc scripting}{Java}{Image processing with ImageJ}
+\cvline{-}{\textbf{Python, Bash, and Perl} as tools of choice for every-day sysadmin tasks and tool building}
+\cvline{-}{\textbf{Fortran, C, CUDA, and Python} for parallel and scientific computing}
+\cvline{-}{Some personal experience with \textbf{Go and Ruby} for webapps and network programming}
+%\subsection{Programming Languages}
+%\cvdoubleitem{Python}{Simulations (NumPy), sysadmin}{C, Fortran}{Numerical simulations}
+%\cvdoubleitem{Perl}{Sysadmin, webapps, Warewulf}{Ruby}{Some Chef, toy Sinatra apps}
+%\cvdoubleitem{Shell}{Sysadmin, misc scripting}{Java}{Image processing with ImageJ}
 %\cvdoubleitem{Ruby}{Chef DSL, some scripting}{CUDA}{Help debug user code}
-\subsection{High Performance Computing}
-\cvline{Provisioning}{Warewulf, Windows HPC; some experience with Platform, Bright, Cobbler}
-\cvline{Management}{Torque/Maui, PBS Professional, SLURM, Windows HPC Pack, Grid Engine, Hadoop}
-\cvline{Storage}{Parallel filesystems including Lustre, HDFS, PVFS2; NFS for low-performance storage}
-\cvline{Networking}{Deploy and manage Infiniband and Ethernet networks in clustered environments}
-\cvline{Cloud}{Single-node and cluster deployments on Amazon EC2 and Peer 1}
-\subsection{General System Administration}
-\cvline{Support}{Front-line support for large, complex HPC deployments with up to 100 users}
+\subsection{High Performance Computing and System Administration}
+\cvline{-}{Design and assembly of Linux and Windows HPC clusters up to 500 nodes}
+\cvline{-}{System provisioning with Warewulf and Microsoft HPC Pack; 
+some additional experience with Cobbler, Bright, and Platform}
+\cvline{-}{Cluster resource managers including Torque/Maui, SLURM, Grid Engine, and HPC Pack}
+\cvline{-}{Parallel filesystems including Lustre and HDFS; personal experience with PVFS2 and
+Ceph}
+\cvline{-}{Ethernet networks with Dell, SuperMicro and HP equipment; Infiniband networks
+with Mellanox switches}
+\cvline{-}{Configuration management with Chef and Ansible, some experience with Puppet}
+\cvline{-}{Some experience with Hadoop for ``Big Data'' processing in clusters}
+\cvline{-}{Front-line and in-depth support for user communities of up to 100 users, including
+various skill levels from professional programmers to beginning users}
+\subsection{Other Skills}
+\cvline{-}{Strong background in scientific research and materials engineering}
+\cvline{-}{Statistical analysis of experimental data}
+\cvline{-}{Project management on technical projects such as cluster deployments}
+%\cvline{Provisioning}{Extensive experience with Warewulf and HPC Pack; 
+%some experience with \textbf{Platform, Bright, Cobbler}}
+%\cvline{Management/Scheduling}{Torque/Maui, PBS Professional, SLURM, Windows HPC Pack, Grid Engine, Hadoop}
+%\cvline{Storage}{Parallel filesystems including Lustre, HDFS, PVFS2; NFS for low-performance network storage}
+%\cvline{Networking}{Deploy and manage Infiniband and Ethernet networks in clustered environments}
+%\cvline{Cloud}{Single-node and cluster deployments on Amazon EC2 and Peer 1}
+%\subsection{General System Administration}
+%\cvline{Support}{Front-line support for large, complex HPC deployments with up to 100 users}
 %\cvline{Provisioning}{\small Linux: Perceus, Warewulf, Cobbler, Kickstart; Windows: HPC Pack, WDS}
-\cvline{Configuration}{Configuration management with Chef or Ansible (Linux) or Group Policy (Windows)}
-\cvline{Deployment}{Build packages (rpm/deb/msi) for custom application deployment}
+%\cvline{Configuration}{Configuration management with Chef or Ansible (Linux) or Group Policy (Windows)}
+%\cvline{Deployment}{Build packages (rpm/deb/msi) for custom application deployment}
 
 
 
@@ -65,7 +87,7 @@ provisioning, and miscellaneous bug-fixes.}
 \cventry{2007--2010}{M.S. Materials Science and Engineering}{University of Illinois}{Urbana, IL}{}{}
 \cventry{2003--2007}{B.S. Physics}{Michigan Technological University}{Houghton, MI}{}{Minors: Mathematics, Electronic Materials}
 
-\section{Additional Training}
-\cventry{2012}{Cray XE6/XK6 System Administration}{Cray, Inc.}{Chippewa Falls, WI}{}{}
+%\section{Additional Training}
+%\cventry{2012}{Cray XE6/XK6 System Administration}{Cray, Inc.}{Chippewa Falls, WI}{}{}
 
 \end{document}
