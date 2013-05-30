@@ -3,7 +3,7 @@
 %\moderncvtheme[green]{casual}
 \moderncvtheme[blue]{classic}
 \usepackage[utf8]{inputenc}
-\usepackage[hmargin=1cm,vmargin=0.5cm]{geometry}
+\usepackage[hmargin=1cm,vmargin=1cm]{geometry}
 %\usepackage[pdftex,colorlinks=false,plainpages=false]{hyperref}
 \usepackage[pdftex,plainpages=false]{hyperref}
 
@@ -25,50 +25,49 @@
 
 
 \section{Experience}
-\cventry{2012--present}{Systems Engineer}{NVIDIA}{Santa Clara, CA}{}{
+\cventry{2012--present}{HPC/Cloud Systems Engineer}{NVIDIA}{Santa Clara, CA}{}{
 	\begin{itemize}
-	\item Design, deploy, and support GPU-enabled HPC clusters and workstations for development,
+	\item Design, deploy, and support HPC clusters for development,
 		benchmarking and demos
-	\item Sole system administrator for a heterogeneous HPC cluster and Cray XK6 with >100 users
-	\item Develop automation for deploying compute clusters and demo systems to cloud infrastructure
-	\item Technical advice and support for marketing and solution architect teams
+	\item Sysadmin for several internal HPC clusters with >100 users, including a Cray Nano XK7
+   % \item Sysadmin for internal test lab for NVIDIA GRID (virtualized GPU appliances)
+	\item Develop automation for deploying compute clusters and training systems to cloud infrastructure
+	\item Technical advice and support for solution architect, developer technology and marketing teams
 	\end{itemize}
 }
-\cventry{2011--present}{Contributor}{Warewulf Cluster Manager}{\href{http://warewulf.lbl.gov/}{http://warewulf.lbl.gov/}}{}{Development and testing for open-source HPC provisioning system and cluster manager. Have worked on IPMI integration, stateful
-provisioning, and miscellaneous bug-fixes.}
-\cventry{2010--2012}{Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{Designed, deployed, and provided user support 
+\cventry{2011--present}{Contributor}{Warewulf Cluster Manager}{\href{http://warewulf.lbl.gov/}{http://warewulf.lbl.gov/}}{}{Development and testing for open-source HPC provisioning system and cluster manager.}
+\cventry{2010--2012}{HPC Systems Engineer}{R Systems NA, Inc.}{Champaign, IL}{}{Designed, deployed, and provided user support 
 for Windows and Linux compute clusters as "HPC as a Service". Developed internal tooling and automation.}
 \cventry{2007--2010}{Graduate Research Assistant}{University of Illinois}{Urbana, IL}{}{Research on properties of 
-viscoelastic materials (with non-linear flow behavior), including development of data analysis tools}
+colloidal viscoelastic materials, development of image analysis tools}
 \cventry{2006}{Contractor}{Dow Corning Corporation}{Midland, MI}{}{Assembled and programmed an automated test station to perform electrical characterization and optical analysis of prototype OLED devices}
 
 \section{Skills and Knowledge}
 \subsection{Programming Languages}
-\cvline{-}{\textbf{Python, Bash, and Perl} as tools of choice for every-day sysadmin tasks and tool building}
-\cvline{-}{\textbf{Fortran, C, CUDA, and Python} for parallel and scientific computing}
-\cvline{-}{Some personal experience with \textbf{Go and Ruby} for webapps and network programming}
+\cvline{-}{Python, Bash, and Perl as tools of choice for every-day sysadmin tasks and tool building}
+\cvline{-}{Fortran, C, CUDA, and Python for parallel and scientific computing}
+\cvline{-}{Some personal experience with Go and Ruby for network programming and webapps}
 %\subsection{Programming Languages}
 %\cvdoubleitem{Python}{Simulations (NumPy), sysadmin}{C, Fortran}{Numerical simulations}
 %\cvdoubleitem{Perl}{Sysadmin, webapps, Warewulf}{Ruby}{Some Chef, toy Sinatra apps}
 %\cvdoubleitem{Shell}{Sysadmin, misc scripting}{Java}{Image processing with ImageJ}
 %\cvdoubleitem{Ruby}{Chef DSL, some scripting}{CUDA}{Help debug user code}
-\subsection{High Performance Computing and System Administration}
-\cvline{-}{Design and assembly of Linux and Windows HPC clusters up to 500 nodes}
-\cvline{-}{System provisioning with Warewulf and Microsoft HPC Pack; 
-some additional experience with Cobbler, Bright, and Platform}
+\subsection{High Performance Computing}
+\cvline{-}{Design and deploy Infiniband HPC clusters up to 500 nodes, Linux or Windows}
+\cvline{-}{HPC accelerators including NVIDIA Tesla and Intel Xeon Phi}
 \cvline{-}{Cluster resource managers including Torque/Maui, SLURM, Grid Engine, and HPC Pack}
-\cvline{-}{Parallel filesystems including Lustre and HDFS; personal experience with PVFS2 and
-Ceph}
-\cvline{-}{Ethernet networks with Dell, SuperMicro and HP equipment; Infiniband networks
-with Mellanox switches}
-\cvline{-}{Configuration management with Chef and Ansible, some experience with Puppet}
+\cvline{-}{Parallel filesystems including Lustre, HDFS, GlusterFS}
 \cvline{-}{Some experience with Hadoop for ``Big Data'' processing in clusters}
-\cvline{-}{Front-line and in-depth support for user communities of up to 100 users, including
-various skill levels from professional programmers to beginning users}
+\subsection{DevOps/Sysadmin Skills}
+\cvline{-}{Experienced Linux system administrator, mostly with RHEL 5 and 6, Ubuntu 10-12}
+\cvline{-}{Bare-metal system provisioning with Warewulf, Cobbler, or Microsoft HPC Pack} 
+\cvline{-}{CloudFormation deployments on Amazon EC2 of up to 100 nodes}
+\cvline{-}{Configuration management and automation with Ansible or Chef}
+\cvline{-}{Sole user support for communities of up to 100 users at various skill levels}
 \subsection{Other Skills}
-\cvline{-}{Strong background in scientific research and materials engineering}
-\cvline{-}{Statistical analysis of experimental data}
-\cvline{-}{Project management on technical projects such as cluster deployments}
+\cvline{-}{Strong background in scientific research, physics, and materials engineering}
+\cvline{-}{Data analysis, including image processing and statistical analysis}
+\cvline{-}{Basic project management for technical projects with small teams (<5)}
 %\cvline{Provisioning}{Extensive experience with Warewulf and HPC Pack; 
 %some experience with \textbf{Platform, Bright, Cobbler}}
 %\cvline{Management/Scheduling}{Torque/Maui, PBS Professional, SLURM, Windows HPC Pack, Grid Engine, Hadoop}
